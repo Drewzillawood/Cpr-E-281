@@ -1,0 +1,26 @@
+|lab09step3b
+Q <= lab09step2:inst1.Q
+D => lab09step2:inst.D
+clock => inst2.IN0
+clock => lab09step2:inst1.clock
+~Q <= lab09step2:inst1.~Q
+
+
+|lab09step3b|lab09step2:inst1
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D => inst2.IN0
+D => inst.IN1
+clock => inst3.IN1
+clock => inst.IN0
+~Q <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab09step3b|lab09step2:inst
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D => inst2.IN0
+D => inst.IN1
+clock => inst3.IN1
+clock => inst.IN0
+~Q <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

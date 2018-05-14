@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, /home/drewu/CPRE281/Lab09/lab09step3b.bdf
+source_file = 1, /home/drewu/CPRE281/Lab09/lab09step3/lab09step3b/db/lab09step3b.cbx.xml
+source_file = 1, /home/drewu/CPRE281/Lab09/lab09step3/lab09step3b/lab09step2.bdf
+design_name = lab09step3b
+instance = comp, \clock~I\, clock, lab09step3b, 1
+instance = comp, \clock~clkctrl\, clock~clkctrl, lab09step3b, 1
+instance = comp, \D~I\, D, lab09step3b, 1
+instance = comp, \inst|inst4~1\, inst|inst4~1, lab09step3b, 1
+instance = comp, \inst1|inst4~1\, inst1|inst4~1, lab09step3b, 1
+instance = comp, \inst1|inst1\, inst1|inst1, lab09step3b, 1
+instance = comp, \Q~I\, Q, lab09step3b, 1
+instance = comp, \~Q~I\, ~Q, lab09step3b, 1

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/drewu/CPRE281/Lab02/lab2step2/lab2step2.bdf
+source_file = 1, /home/drewu/CPRE281/Lab02/lab2step2/output_files/Chain2.cdf
+source_file = 1, /home/drewu/CPRE281/Lab02/lab2step2/db/lab2step2.cbx.xml
+design_name = lab2step2
+instance = comp, \Goat~I\, Goat, lab2step2, 1
+instance = comp, \Wolf~I\, Wolf, lab2step2, 1
+instance = comp, \Cabbage~I\, Cabbage, lab2step2, 1
+instance = comp, \Alarm~I\, Alarm, lab2step2, 1

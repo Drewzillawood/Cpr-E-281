@@ -1,0 +1,29 @@
+|lab10step3b
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst.CLK
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+HEX_00 <= seven_seg_decoder:inst5.A
+HEX_01 <= seven_seg_decoder:inst5.B
+HEX_02 <= seven_seg_decoder:inst5.C
+HEX_03 <= seven_seg_decoder:inst5.D
+HEX_04 <= seven_seg_decoder:inst5.E
+HEX_05 <= seven_seg_decoder:inst5.F
+HEX_06 <= seven_seg_decoder:inst5.G
+
+
+|lab10step3b|seven_seg_decoder:inst5
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

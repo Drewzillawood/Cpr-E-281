@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, normal.vhd
+source_file = 1, /home/drewu/CPRE281/Lab04/Lab4step2/normal.v
+source_file = 1, /home/drewu/CPRE281/Lab04/Lab4step2/Lab4step2.bdf
+source_file = 1, /home/drewu/CPRE281/Lab04/Lab4step2/power_saving.v
+source_file = 1, /home/drewu/CPRE281/Lab04/Lab4step2/multiplexer.v
+source_file = 1, /home/drewu/CPRE281/Lab04/Lab4step2/db/Lab4step2.cbx.xml
+design_name = Lab4step2
+instance = comp, \T~I\, T, Lab4step2, 1
+instance = comp, \P~I\, P, Lab4step2, 1
+instance = comp, \M~I\, M, Lab4step2, 1
+instance = comp, \H~I\, H, Lab4step2, 1
+instance = comp, \inst1|WideOr0~0\, inst1|WideOr0~0, Lab4step2, 1
+instance = comp, \AC~I\, AC, Lab4step2, 1

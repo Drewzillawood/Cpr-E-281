@@ -1,0 +1,19 @@
+module seven_seg_decoder
+
+	input Z,Y,X,W;
+	output F;
+	reg F;
+	
+		always@(Z or Y or X or W)
+		begin
+		
+			case({X,Y,X,W})
+			4'b0000:F=7'b000 0001
+			4'b0001:F=7'b111 1001
+			4'b0010:F=7'b001 0010
+			4'b0011:F=7'b000 0110
+			
+			4'b0100:F=7'b100 1100
+			4'b0101:F=7'b010 0100
+			4'b0110:F=7'b010 0000
+			4'b

@@ -1,0 +1,10 @@
+|lab3Step1
+Alarm <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Cabbage => WideOr1.IN0
+Cabbage => WideOr0.IN0
+Wolf => WideOr1.IN1
+Wolf => WideOr0.IN1
+Goat => WideOr0.IN2
+Goat => WideOr1.IN2
+
+

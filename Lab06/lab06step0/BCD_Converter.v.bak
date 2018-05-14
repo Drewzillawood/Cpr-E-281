@@ -1,0 +1,3 @@
+module BCD_Converter(S0, S1, S2, S3, C0, Z2, Z1, Y2, Y1, X2, X1, W2, W1);
+
+endmodule

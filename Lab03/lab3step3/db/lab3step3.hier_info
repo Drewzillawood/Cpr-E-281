@@ -1,0 +1,24 @@
+|lab3step3
+Alarm <= Alarm.DB_MAX_OUTPUT_PORT_TYPE
+a => Alarm.IN0
+a => Alarm.IN0
+a => Alarm.IN0
+a => Alarm.IN0
+b => Alarm.IN1
+b => Alarm.IN1
+b => Alarm.IN1
+b => Alarm.IN1
+c => Alarm.IN1
+c => Alarm.IN1
+c => Alarm.IN1
+c => Alarm.IN1
+c => Alarm.IN1
+c => Alarm.IN1
+d => Alarm.IN1
+d => Alarm.IN1
+d => Alarm.IN1
+d => Alarm.IN1
+d => Alarm.IN1
+d => Alarm.IN1
+
+

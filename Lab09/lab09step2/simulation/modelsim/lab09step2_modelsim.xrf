@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/drewu/CPRE281/Lab09/lab09step1/lab09step2.bdf
+source_file = 1, /home/drewu/CPRE281/Lab09/lab09step2/db/lab09step2.cbx.xml
+design_name = lab09step2
+instance = comp, \D~I\, D, lab09step2, 1
+instance = comp, \clock~I\, clock, lab09step2, 1
+instance = comp, \inst4~1\, inst4~1, lab09step2, 1
+instance = comp, \Q~I\, Q, lab09step2, 1
+instance = comp, \~Q~I\, ~Q, lab09step2, 1

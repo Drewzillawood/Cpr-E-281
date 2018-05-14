@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/drewu/CPRE281/Lab03/lab3step0/lab3Step0.bdf
+source_file = 1, /home/drewu/CPRE281/Lab03/lab3step0/db/lab3Step0.cbx.xml
+design_name = lab3Step0
+instance = comp, \Goat~I\, Goat, lab3Step0, 1
+instance = comp, \Wolf~I\, Wolf, lab3Step0, 1
+instance = comp, \Cabbage~I\, Cabbage, lab3Step0, 1
+instance = comp, \inst2~0\, inst2~0, lab3Step0, 1
+instance = comp, \Alarm~I\, Alarm, lab3Step0, 1

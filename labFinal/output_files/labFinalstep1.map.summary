@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jul  7 17:35:20 2016
+Quartus II 64-Bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Full Version
+Revision Name : labFinalstep1
+Top-level Entity Name : labFinalstep1
+Family : Cyclone II
+Total logic elements : 13
+    Total combinational functions : 13
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

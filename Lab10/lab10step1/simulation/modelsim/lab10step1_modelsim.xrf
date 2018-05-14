@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/drewu/CPRE281/Lab10/lab10step1/lab10step1.bdf
+source_file = 1, /home/drewu/CPRE281/Lab10/lab10step1/output_files/Chain1.cdf
+source_file = 1, /home/drewu/CPRE281/Lab10/lab10step1/db/lab10step1.cbx.xml
+design_name = lab10step1
+instance = comp, \Clk~I\, Clk, lab10step1, 1
+instance = comp, \Clk~clk_delay_ctrl\, Clk~clk_delay_ctrl, lab10step1, 1
+instance = comp, \Clk~clkctrl\, Clk~clkctrl, lab10step1, 1
+instance = comp, \D~I\, D, lab10step1, 1
+instance = comp, \inst3~feeder\, inst3~feeder, lab10step1, 1
+instance = comp, \inst4~feeder\, inst4~feeder, lab10step1, 1
+instance = comp, \inst5~feeder\, inst5~feeder, lab10step1, 1
+instance = comp, \Q4~I\, Q4, lab10step1, 1
+instance = comp, \Q1~I\, Q1, lab10step1, 1
+instance = comp, \Q2~I\, Q2, lab10step1, 1
+instance = comp, \Q3~I\, Q3, lab10step1, 1
